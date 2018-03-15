@@ -1,5 +1,6 @@
 /*
  * Pass the tests again!
+ * One test is already passing. Make sure it stays that way.
  */
 
 
@@ -63,7 +64,8 @@ const inlineComment = () =>
 
 const multiLineNoInline = () => {
   /* keep these lines commented, but
-  change the syntax to a multiline comment */
+  change the syntax to a multiline comment
+  and remove the inline syntax */
   return 5
 }
 
